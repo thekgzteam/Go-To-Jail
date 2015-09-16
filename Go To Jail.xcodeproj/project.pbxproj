@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD2B07F61B69355F001AC22C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2B07F51B69355F001AC22C /* CoreLocation.framework */; };
 		FD6889201B692DC000790DA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD68891F1B692DC000790DA9 /* main.m */; };
 		FD6889231B692DC000790DA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6889221B692DC000790DA9 /* AppDelegate.m */; };
 		FD6889261B692DC000790DA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6889251B692DC000790DA9 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD2B07F51B69355F001AC22C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		FD68891A1B692DC000790DA9 /* Go To Jail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go To Jail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD68891E1B692DC000790DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD68891F1B692DC000790DA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD2B07F61B69355F001AC22C /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		FD6889111B692DC000790DA9 = {
 			isa = PBXGroup;
 			children = (
+				FD2B07F51B69355F001AC22C /* CoreLocation.framework */,
 				FD68891C1B692DC000790DA9 /* Go To Jail */,
 				FD6889361B692DC000790DA9 /* Go To JailTests */,
 				FD68891B1B692DC000790DA9 /* Products */,
@@ -416,6 +420,7 @@
 				FD68893F1B692DC000790DA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD6889401B692DC000790DA9 /* Build configuration list for PBXNativeTarget "Go To JailTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				FD6889421B692DC000790DA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
